@@ -1,0 +1,43 @@
+@import '../../styles/_variables';
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+
+  label {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: $light-blue;
+    font-weight: 400;
+  }
+
+  &Wrapper {
+    .inputDef {
+      width: 100%;
+      color: $black;
+      border-radius: 0;
+      padding: 0.8rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      background: $white;
+      border: 1px solid $light-grey;
+    }
+
+    ::placeholder {
+      color: $light-grey;
+      ;
+    }
+
+    :hover {
+      background: #edf1f7;
+    }
+
+    :focus {
+      border: 1px solid #18379a !important;
+      box-shadow: 0 0 4px rgba(24, 55, 154, 0.3);
+      background: $white  !important;
+    }
+  }
+}

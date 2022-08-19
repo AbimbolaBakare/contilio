@@ -1,0 +1,44 @@
+@import '../../styles/generic.scss';
+
+.tableContainer {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+
+  .th {
+    font-size: 12px;
+    color: $white;
+    padding: 10px 25px;
+    background-color: $grey;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+    height: 38px;
+    vertical-align: middle;
+  }
+
+  .td {
+    color: $grey;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 25px;
+    background-color: $white;
+    border-bottom: 1px solid #ddd;
+    min-width: 150;
+    text-transform: capitalize;
+  }
+
+  .tr {
+    &:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
+  }
+}
