@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/09c850db4278495f80d184c60aa7da51)](https://www.codacy.com/gh/AbimbolaBakare/contilio/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AbimbolaBakare/contilio&amp;utm_campaign=Badge_Grade)
+
 # Technologies usd
 1. React
 2. Typescript
