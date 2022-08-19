@@ -1,4 +1,10 @@
-# Technologies usd
+# Implementation Details
+
+A simple data driven web application
+
+<img src="./assets/screenshot.png" />
+
+# Technologies used
 1. React
 2. Typescript
 3. Docker
